@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3 form button {
+    font-family: "Libre Baskerville", serif;
+}
+
+body,
+input,
+textarea {
+    font-family: "Libre Baskerville", serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #155765;
+    color: #ab9353;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ab9353;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group_illustration img {
+    height: 24px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #155765;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.group_illustration {
+    margin-right: 32px;
+}
+
+.social-links li img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    color: #155765;
+}
+
+form button {
+    background-color: #155765;
+    color: #ab9353;
+    border: none;
+    cursor: pointer;
+    font-weight: bold
+}
+
+form button:hover {
+    background-color: #437883;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #7ba0a8;
+}
+
+footer {
+    background-color: #155765;
+    color: #ab9353;
+    padding: 16px 0;
+}
